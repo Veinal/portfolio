@@ -13,11 +13,13 @@ export default function Home() {
 
       {/* landing page */}
       <div className="flex w-full h-full mt-28">
-        <div className=" w-1/2 h-80 ml-10 mr-5 border-2 border-black" id="name">
-          <p className=" ml-5">This is Veinal</p>
-          <p className="">Full stack developer</p>
+        <div className=" flex justify-center w-1/2 h-80 ml-10 mr-5 border-2 border-black" id="name">
+          <div>
+            <p className=" text-5xl font-bold">This is Veinal</p>
+            <p className=" text-5xl font-bold">Full stack developer</p>
+          </div>
         </div>
-        <div className="w-1/2 h-80 mr-10 ml-5 border-2 border-black" id="photo-div">
+        <div className=" flex justify-center w-1/2 h-80 mr-10 ml-5 border-2 border-black" id="photo-div">
           <img src="" alt="svg" />
         </div>
       </div>
