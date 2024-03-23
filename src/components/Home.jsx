@@ -5,6 +5,7 @@ import Footer from './Footer'
 import Projects from './Projects'
 import Bio from './Bio'
 import Skills from './Skills'
+import img from '../Hostess characters.jpg'
 
 export default function Home() {
   return (
@@ -21,7 +22,7 @@ export default function Home() {
           </div>
         </div>
         <div className=" flex justify-center w-1/2 h-80 mr-10 ml-5 border-2 border-black" id="photo-div">
-          <img src="" alt="svg" />
+          <img className=' rounded-full' src={img} alt="svg" />
         </div>
       </div>
 

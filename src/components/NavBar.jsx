@@ -6,11 +6,11 @@ export default function NavBar() {
         <nav className=" flex justify-around p-4 bg-gray-950 text-white">
             <img src="" alt="logo" className="" />
             <ol className=" flex gap-8">
-                <li className="">Home</li>
-                <li className="">Bio</li>
-                <li className="">Skills</li>
-                <li className="">Projects</li>
-                <li className="">About me</li>
+                <li className=""><a>Home</a></li>
+                <li className=""><a>Bio</a></li>
+                <li className=""><a>Skills</a></li>
+                <li className=""><a>Projects</a></li>
+                <li className=""><a>About me</a></li>
             </ol>
 
         </nav>
